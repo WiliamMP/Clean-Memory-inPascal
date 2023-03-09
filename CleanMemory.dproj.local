@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/03/09 19:54:11.816,=C:\Users\Wiliam\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2023/03/09 20:01:21.669,C:\Users\Wiliam\Documents\SourceTree\Memory-Cleaner\UClean.pas=C:\Users\Wiliam\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2023/03/09 20:01:21.669,C:\Users\Wiliam\Documents\SourceTree\Memory-Cleaner\UClean.dfm=C:\Users\Wiliam\Documents\Embarcadero\Studio\Projects\Unit4.dfm</Transaction>
+    <Transaction>2023/03/09 20:01:28.319,C:\Users\Wiliam\Documents\SourceTree\Memory-Cleaner\CleanMemory.dproj=C:\Users\Wiliam\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>2023/03/09 20:07:09.209,=C:\Users\Wiliam\Documents\SourceTree\Memory-Cleaner\Unit1.pas</Transaction>
+    <Transaction>2023/03/09 20:09:08.083,C:\Users\Wiliam\Documents\SourceTree\Memory-Cleaner\UConfig.dfm=C:\Users\Wiliam\Documents\SourceTree\Memory-Cleaner\Unit1.dfm</Transaction>
+    <Transaction>2023/03/09 20:09:08.083,C:\Users\Wiliam\Documents\SourceTree\Memory-Cleaner\UConfig.pas=C:\Users\Wiliam\Documents\SourceTree\Memory-Cleaner\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
