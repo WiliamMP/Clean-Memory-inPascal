@@ -11,15 +11,20 @@ object frmCleaner: TfrmCleaner
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  OnShow = FormShow
+  DesignSize = (
+    389
+    172)
   PixelsPerInch = 96
   TextHeight = 13
-  object lblPorcentage: TLabel
-    Left = 175
-    Top = 136
-    Width = 65
-    Height = 13
-    Caption = 'lblPorcentage'
+  object btnCleanMemory: TButton
+    Left = 258
+    Top = 131
+    Width = 115
+    Height = 25
+    Anchors = [akRight, akBottom]
+    Caption = 'Limpar Memoria'
+    TabOrder = 0
+    OnClick = btnCleanMemoryClick
   end
   object tlbOptions: TToolBar
     Left = 0
@@ -30,8 +35,7 @@ object frmCleaner: TfrmCleaner
     ButtonWidth = 39
     Caption = 'tlbOptions'
     Images = ilImagesTlb
-    TabOrder = 0
-    ExplicitLeft = 8
+    TabOrder = 1
     object btnConfig: TToolButton
       Left = 0
       Top = 0
@@ -39,23 +43,6 @@ object frmCleaner: TfrmCleaner
       ImageIndex = 0
       OnClick = btnConfigClick
     end
-  end
-  object pbMemory: TProgressBar
-    Left = 8
-    Top = 131
-    Width = 161
-    Height = 20
-    Smooth = True
-    TabOrder = 1
-  end
-  object btnCleanMemo: TButton
-    Left = 256
-    Top = 131
-    Width = 125
-    Height = 25
-    Caption = 'Liberar Memoria'
-    TabOrder = 2
-    OnClick = btnCleanMemoClick
   end
   object ilImagesTlb: TImageList
     Height = 32
@@ -596,9 +583,5 @@ object frmCleaner: TfrmCleaner
       F000000F000000000000000000000000F800001F000000000000000000000000
       FC20043F000000000000000000000000FF6006FF000000000000000000000000
       FFE007FF000000000000000000000000}
-  end
-  object tmr: TTimer
-    Left = 296
-    Top = 48
   end
 end
